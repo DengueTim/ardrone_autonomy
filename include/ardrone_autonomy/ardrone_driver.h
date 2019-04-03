@@ -27,6 +27,11 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 
 class ARDroneDriver;
 
+// C/C++
+#include <stdint.h>
+#include <vector>
+#include <string>
+
 // ROS
 #include <ros/ros.h>
 #include <image_transport/image_transport.h>
@@ -39,11 +44,6 @@ class ARDroneDriver;
 #include <nav_msgs/Odometry.h>
 #include <ardrone_autonomy/Navdata.h>
 #include <ardrone_autonomy/ardrone_sdk.h>
-
-// C/C++
-#include <stdint.h>
-#include <vector>
-#include <string>
 
 // ardronelib
 #include <utils/ardrone_gen_ids.h>
